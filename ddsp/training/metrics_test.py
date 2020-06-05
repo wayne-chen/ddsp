@@ -17,7 +17,7 @@
 
 from absl.testing import parameterized
 from ddsp.spectral_ops_test import gen_np_sinusoid
-from ddsp.training.eval_util import compute_audio_features
+from ddsp.training.metrics import compute_audio_features
 import numpy as np
 import tensorflow.compat.v2 as tf
 
